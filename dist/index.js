@@ -14729,6 +14729,11 @@ function getInput(name, options) {
     return val.trim();
 }
 exports.getInput = getInput;
+
+// Comment below function out as it is now deprecated.
+// Not used in Recycleye repos so safe to comment out
+//      and wait for author to fix and add again if needed.
+// https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
 /**
  * Sets the value of an output.
  *
