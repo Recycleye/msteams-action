@@ -11,7 +11,7 @@ inputs:
     description: 'If set, A MS Teams notification will be sent to this webhook'
     required: true
 runs:
-  using: "node12"
+  using: "node16"
   main: "dist/index.js"
 branding:
   icon: 'message-circle'  
