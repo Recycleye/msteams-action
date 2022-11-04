@@ -14735,10 +14735,12 @@ exports.getInput = getInput;
  * @param     name     name of the output to set
  * @param     value    value to store
  */
+/*
 function setOutput(name, value) {
     command_1.issueCommand('set-output', { name }, value);
 }
 exports.setOutput = setOutput;
+*/
 //-----------------------------------------------------------------------
 // Results
 //-----------------------------------------------------------------------
